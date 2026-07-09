@@ -378,29 +378,32 @@ http://localhost:8000/docs
 
 # 📦 Dataset
 
-Large datasets are **not uploaded to GitHub** due to repository size limitations.
+The datasets used for this project were collected from publicly available sources, including **Kaggle** and other open-source traffic and computer vision datasets.
 
-The project uses datasets related to:
+The project utilizes datasets related to:
 
-- Helmet Detection
+- Helmet / No-Helmet Detection
 - Seatbelt Detection
-- Triple Riding
-- Illegal Parking
-- OCR
-- License Plate Recognition
-- Traffic Images
+- Triple Riding Detection
+- Illegal Parking Detection
+- License Plate Recognition (OCR)
+- General Traffic Scene Images
 
-Dataset references and download links are provided separately within the project documentation.
+> **Note:** The original datasets are **not included in this repository** because they are large (several GBs) and exceed GitHub's storage limitations.
 
----
+To perform model training or retraining, download the required datasets from their respective sources (such as Kaggle) and organize them according to your preferred training pipeline.
 
-# ⚠ Notes
-
-- This repository focuses on the application prototype and system architecture.
-- AI model weights and large datasets are intentionally excluded from GitHub.
-- Additional datasets and model files may be downloaded separately before performing full AI model testing.
+The current repository focuses on the application, architecture, and inference workflow rather than distributing the training datasets.
 
 ---
+
+# ⚠️ Notes
+
+- This repository contains the complete frontend and backend implementation of the ViolationLens AI prototype.
+- Large datasets and trained model weights are intentionally excluded from GitHub due to repository size limitations.
+- Datasets can be downloaded separately from Kaggle and other publicly available sources for training and experimentation.
+- The project can be extended by training custom models using these datasets and integrating the resulting model weights into the backend.
+- The deployed prototype demonstrates the complete system workflow, architecture, and user interface for AI-assisted traffic violation analysis and evidence generation.
 
 # 📸 Prototype Screens
 
